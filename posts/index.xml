@@ -7,13 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Chris Downing 2017</copyright>
-    <lastBuildDate>Sun, 22 Apr 2018 22:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Apr 2018 22:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://chrisdowning.co.uk/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Minio</title>
+      <title>XCP-ng</title>
+      <link>https://chrisdowning.co.uk/posts/xcp-ng/</link>
+      <pubDate>Mon, 23 Apr 2018 22:00:00 +0000</pubDate>
+      
+      <guid>https://chrisdowning.co.uk/posts/xcp-ng/</guid>
+      <description>Earlier this year, the XCP-ng project completed a round of crowd-funding to produce a fully open version of XenServer without any paid feature lock-down.
+This is a project I was pretty excited about; although I had never tried XenServer or any VMWare tools common to enterpriste IT, I was keen to have a more flexible &amp;ldquo;home lab&amp;rdquo; setup than the bunch of RPi&amp;rsquo;s and regular servers I&amp;rsquo;d accumulated. ProxMox was my first attempt at running a virtualised setup at home, but I hadn&amp;rsquo;t enjoyed the experience much - I wanted something which would require less tinkering, ideally with a more modern interface.</description>
+    </item>
+    
+    <item>
+      <title>Minio (in progress)</title>
       <link>https://chrisdowning.co.uk/posts/minio/</link>
       <pubDate>Sun, 22 Apr 2018 22:00:00 +0000</pubDate>
       

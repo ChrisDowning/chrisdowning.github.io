@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>XCP-ng | Chris Downing</title>
+
+
+<link rel="stylesheet" href="/css/style.css"/><link rel='stylesheet' href='https://chrisdowning.co.uk/css/custom.css'></head>
+<body>
+
+<section class="section">
+  <div class="container">
+    <nav class="nav">
+      <div class="nav-left">
+        <a class="nav-item" href="https://chrisdowning.co.uk"><h1 class="title is-4">Chris Downing</h1></a>
+      </div>
+      <div class="nav-right">
+        <nav class="nav-item level is-mobile"><a class="level-item" href='https://github.com/ChrisDowning' target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+    
+  </svg></i>
+            </span>
+          </a><a class="level-item" href='https://twitter.com/madasbeans' target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+    
+  </svg></i>
+            </span>
+          </a></nav>
+      </div>
+    </nav>
+
+    
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="subtitle is-6 is-pulled-right">
+      
+    </div>
+    <h2 class="subtitle is-6">April 23, 2018</h2>
+    <h1 class="title">XCP-ng</h1>
+    
+    <div class="content">
+      <p>Earlier this year, the <a href="https://xcp-ng.org/" target="_blank">XCP-ng</a> project completed a round of crowd-funding to produce a fully open version of XenServer without any paid feature lock-down.</p>
+
+<p>This is a project I was pretty excited about; although I had never tried XenServer or any VMWare tools common to enterpriste IT, I was keen to have a more flexible &ldquo;home lab&rdquo; setup than the bunch of RPi&rsquo;s and regular servers I&rsquo;d accumulated. <a href="https://www.proxmox.com/en/" target="_blank">ProxMox</a> was my first attempt at running a virtualised setup at home, but I hadn&rsquo;t enjoyed the experience much - I wanted something which would require less tinkering, ideally with a more modern interface.</p>
+
+<p>Unfortunately, XCP-ng didn&rsquo;t live up to the hype for my use-case. The main issue wasn&rsquo;t actually the virtualisation software itself, which seemed to work without issue. Instead, it was the dashboard and GUI tool <a href="https://xen-orchestra.com/#!/xo-home" target="_blank">Xen Orchestra</a> that was the problem.</p>
+
+<p>XO was developed by the team who kicked off the XCP-ng crowdfunding, and was originally developed for the original XenServer before being adapted to the open source alternative. While it might be a good tool (I don&rsquo;t have enough points of comparison to judge fairly), the feature lock-down for the free version was very distracting - I felt like I was using a small fraction of a real product. I was left with the impression that the whole crowd-funding thing was just a cunning wheeze to get more sales for their third-party management software, which seems rather hypocritical given that the main motivation for the split from XenServer was ostensibly to provide an alternative to an overly restrictive freemium model.</p>
+
+<p>It only took a few hours for me to conclude that XCP-ng wasn&rsquo;t the right approach for me for the time being. At the moment, a simple CentOS + Vagrant/KVM server is likely to be my preferred solution for getting a few VMs running. Revisiting XCP-ng or ProxMox just to get a nice dashboard on a local server is seeming less and less likely as my public cloud usage increases - but I&rsquo;ll keep an eye on both projects to figure out if they are worth the hassle at a later stage.</p>
+
+      
+    </div>
+    
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container has-text-centered">
+    <p>&copy; Chris Downing 2017</p>
+    
+      <p>Powered by <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/ribice/kiss">Kiss</a>.</p>
+    
+  </div>
+</section>
+
+</body>
+</html>
+

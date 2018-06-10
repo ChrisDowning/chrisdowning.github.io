@@ -48,8 +48,28 @@
       <div class="subtitle is-6 is-pulled-right">
         
       </div>
+      <h2 class="subtitle is-6">April 23, 2018</h2>
+      <h1 class="title"><a href="https://chrisdowning.co.uk/posts/xcp-ng/">XCP-ng</a></h1>
+      <div class="content">
+        Earlier this year, the XCP-ng project completed a round of crowd-funding to produce a fully open version of XenServer without any paid feature lock-down.
+This is a project I was pretty excited about; although I had never tried XenServer or any VMWare tools common to enterpriste IT, I was keen to have a more flexible &ldquo;home lab&rdquo; setup than the bunch of RPi&rsquo;s and regular servers I&rsquo;d accumulated. ProxMox was my first attempt at running a virtualised setup at home, but I hadn&rsquo;t enjoyed the experience much - I wanted something which would require less tinkering, ideally with a more modern interface.
+        
+        <a class="button is-link" href="https://chrisdowning.co.uk/posts/xcp-ng/" style="height:28px">
+          Read more
+          <span class="icon is-small">
+            <i class="fa fa-angle-double-right"></i>
+          </span>
+        </a>
+        
+      </div>
+    </article>
+    
+    <article>
+      <div class="subtitle is-6 is-pulled-right">
+        
+      </div>
       <h2 class="subtitle is-6">April 22, 2018</h2>
-      <h1 class="title"><a href="https://chrisdowning.co.uk/posts/minio/">Minio</a></h1>
+      <h1 class="title"><a href="https://chrisdowning.co.uk/posts/minio/">Minio (in progress)</a></h1>
       <div class="content">
         Minio is a simple, S3 compatible object storage server which can be deployed in a Docker container or as a simple binary and provides built-in deduplication over objects.
 The application design is very much aligned with the microservices model - configuration is fairly minimal, and in the simplest case Minio can be launched using just a filesystem path in which the objects are to be stored. Each instance of Minio effectively operates in &ldquo;single-user&rdquo; mode, with one access key/secret key pair - in order to offer Minio to multiple users from the same server or cluster, the administrator need only deploy more Minio instances targeting a different directory per user (or &ldquo;tenant&rdquo;).
