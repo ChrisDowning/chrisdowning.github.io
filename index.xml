@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; Chris Downing 2017</copyright>
-    <lastBuildDate>Mon, 23 Apr 2018 22:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Jul 2018 22:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://chrisdowning.co.uk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Building a Raspberry Pi Cluster</title>
+      <link>https://chrisdowning.co.uk/posts/bramble-intro/</link>
+      <pubDate>Mon, 23 Jul 2018 22:00:00 +0000</pubDate>
+      
+      <guid>https://chrisdowning.co.uk/posts/bramble-intro/</guid>
+      <description>People have been building clusters using the Raspberry Pi family of devices for years now - the first example I came across was “Iridis-pi”, which serves as a demonstrator system for clustered computing and a classic example of how adults will find almost any excuse to play with Lego as part of their day job.
+In the past, I have built a 4-node cluster using RPi2 devices - within that build, I used the official Raspbian OS and set up the SLURM job scheduler and GlusterFS distributed storage service - both from official repositories.</description>
+    </item>
     
     <item>
       <title>XCP-ng</title>
